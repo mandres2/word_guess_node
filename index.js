@@ -112,3 +112,38 @@ function loseGame() {
 }
 
 //_____________________________________________________________ win game f(x) ___________________________________________________________________//
+
+function winGame() {
+    figlet('You win!', function(err, data) {
+        if (err) {
+            console.log('Unknown error.');
+            console.dir(err);
+            return;
+        }
+        console.log(data)
+    });
+
+    inquirer.prompt([
+        {
+            name: "confirm",
+            type: "confirm",
+            message: "Would you like to play again?",
+            default: true
+        }
+    ])
+    .then(function (inquirerResponse){
+        if (inquirerResponse.confirm) {
+            guesses = 10;
+            points = 0;
+            chooseRandomWord();
+            guessWord();
+        } else {
+            console.log(chalk.yellow("See you again."));
+            process.exit();
+        }
+    });
+}
+
+startGame();
+chooseRandomWord();
+guessWord();
