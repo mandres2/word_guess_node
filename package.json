@@ -19,6 +19,7 @@
   "homepage": "https://github.com/mandres2/word_guess_node#readme",
   "dependencies": {
     "chalk": "^2.4.2",
+    "figlet": "^1.2.3",
     "inquirer": "^7.0.0"
   }
 }
