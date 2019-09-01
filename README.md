@@ -39,7 +39,7 @@ The primary motive was to solidify my understandings of the foundational concept
 <br>
 
 ## npm Packages Used:
-:black_small_square: Axios API v0.19.0 - Used to grab data from the OMDB API and the Bands In Town API: https://www.npmjs.com/package/axios
+:black_small_square: inquirer v7.0.0
 <br>
 :black_small_square: chalk API - For colors in terminal: https://www.npmjs.com/package/chalk
 

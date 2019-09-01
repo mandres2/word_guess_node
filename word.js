@@ -8,5 +8,33 @@ A function that returns a string representing the word. This should call the fun
 A function that takes a character as an argument and calls the guess function on each letter object (the second function defined in Letter.js)
 */
 let word = function (word) {
+    this.buildWord = function (word) {
+        let letterStore = [];
+        for (let i = 0; i < word.length; i++) {
+            let currentLetter = new letter(word[i]);
+            letterStore.push(currentLetter);
+        }
+        return letterStore;
+    }
+
+
+    this.letters = this.buildWord(word);
+    this.chosenWord = word;
+
+    this.checkGuess = function (guess) {
+        for (let i = 0; i < this.letters.length; i++) {
+            this.letters[i].letterGuess(guess);
+        }
+    }
+
+    this.display = function() {
+        let letterStore = '';
+        for (let i = 0; i < this.letters.length; i++) {
+            letterStore += this.letters[i].display();
+        }
+        return letterStore;
+    }
 
 };
+
+module.exports = word;
