@@ -1,4 +1,6 @@
 #Constructor Word Guess
+<br>
+
 ![alt text](images/GIFs/nodejs.gif)
 
 ## Motive:
@@ -17,6 +19,7 @@ The primary motive was to solidify my understandings of the foundational concept
 ## Commands
 
 **List of commands:**
+<br>
 node index.js -> To start the game in the terminal.
 
 
@@ -65,11 +68,6 @@ node index.js -> To start the game in the terminal.
 <br>
 :heavy_check_mark: 9.2 - Re-writing code and debugging.
 <br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
+:heavy_check_mark: 9.3 -
+
 
