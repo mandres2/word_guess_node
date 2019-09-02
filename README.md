@@ -1,4 +1,5 @@
-#Constructor Word Guess
+#Constructor Word-Guess
+
 <br>
 
 ![alt text](images/GIFs/nodejs.gif)
@@ -26,10 +27,6 @@ The primary motive was to solidify my understandings of the foundational concept
 node index.js -> To start the game in the terminal.
 <br>
 When prompted to play another game: Y/n (Press: y or n)
-
-
-### What are these Commands?
-
 
 ## Deployment
 
