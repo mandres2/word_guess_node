@@ -17,6 +17,7 @@ The primary motive was to solidify my understandings of the foundational concept
 ## Commands
 
 **List of commands:**
+node index.js -> To start the game in the terminal.
 
 
 ### What are these Commands?
