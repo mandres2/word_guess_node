@@ -1,5 +1,5 @@
 #Constructor Word Guess
-
+![alt text](images/GIFs/nodejs.gif)
 
 ## Motive:
 The primary motive was to solidify my understandings of the foundational concepts utilizing Node.js and how it works in conjunction with constructors, and API databases.
