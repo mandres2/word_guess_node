@@ -5,7 +5,7 @@ const chalk = require('chalk');
 const figlet = require('figlet');
 
 //_______________________________________________________________________________________________________________________________________________//
-
+// Using the require keyword allows the programmer to access all of the exports in the word.js file.
 const word = require('./word.js');
 
 let guesses = 10;

@@ -70,6 +70,9 @@ When prompted to play another game: Y/n (Press: y or n)
 <br>
 :heavy_check_mark: 9.2 - Re-writing code and debugging.
 <br>
-:heavy_check_mark: 9.3 -
+:heavy_check_mark: 9.3 -> 9.4 - Debugging and testing.
+<br>
+:heavy_check_mark: 9.5- Polishing up application and executing final push for application deployment. 
+
 
 
