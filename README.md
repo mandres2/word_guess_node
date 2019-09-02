@@ -17,10 +17,15 @@ The primary motive was to solidify my understandings of the foundational concept
 :black_small_square: Node.js (Version: 12.9.0 or higher)
 
 ## Commands
+<br>
+
+![alt text](images/GIFs/node_word_guess_playthrough_example.gif)
 
 **List of commands:**
 <br>
 node index.js -> To start the game in the terminal.
+<br>
+When prompted to play another game: Y/n (Press: y or n)
 
 
 ### What are these Commands?
