@@ -9,12 +9,12 @@ A function that takes a character as an argument and calls the guess function on
 */
 let word = function (word) {
     this.buildWord = function (word) {
-        let letterStore = [];
+        let lettersStore = [];
         for (let i = 0; i < word.length; i++) {
             let currentLetter = new letter(word[i]);
-            letterStore.push(currentLetter);
+            lettersStore.push(currentLetter);
         }
-        return letterStore;
+        return lettersStore;
     }
 
 
@@ -25,15 +25,15 @@ let word = function (word) {
         for (let i = 0; i < this.letters.length; i++) {
             this.letters[i].letterGuess(guess);
         }
-    }
+    };
 
     this.display = function() {
-        let letterStore = '';
+        let lettersStore = '';
         for (let i = 0; i < this.letters.length; i++) {
-            letterStore += this.letters[i].display();
+            lettersStore += this.letters[i].display();
         }
-        return letterStore;
-    }
+        return lettersStore;
+    };
 
 };
 

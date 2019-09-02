@@ -10,7 +10,6 @@ const word = require('./word.js');
 
 let guesses = 10;
 let points = 0;
-
 let commonWords = [
     "the", "of", "and", "a", "to", "in", "is", "you", "that", "it", "he",
     "was", "for", "on", "are", "as", "with", "his", "they", "I", "at", "be",
@@ -22,8 +21,7 @@ let commonWords = [
     "look", "two", "more", "write", "go", "see", "number", "no", "way",
     "could", "people", "my", "than", "first", "water", "been", "call",
     "who", "oil", "its", "now", "find", "long", "down", "day", "did", "get",
-    "come", "made", "may", "part"
-];
+    "come", "made", "may", "part"];
 let randomWord;
 let chosenWord;
 
@@ -33,7 +31,7 @@ function startGame() {
 
 function chooseRandomWord() {
     randomWord = commonWords[Math.floor(Math.random() * commonWords.length)];
-    chosenWord = new Word(randomWord);
+    chosenWord = new word(randomWord);
 }
 
 function guessWord(){
@@ -55,7 +53,7 @@ function guessWord(){
 
             chosenWord.checkGuess(guess);
 
-            if (random.toLowerCase().indexOf(guess.toLowerCase()) === -1) {
+            if (randomWord.toLowerCase().indexOf(guess.toLowerCase()) === -1) {
                 guesses--;
                 console.log(chalk.red("Incorrect. " + guesses + " guesses remaining "))
             } else {

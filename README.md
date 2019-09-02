@@ -42,6 +42,8 @@ The primary motive was to solidify my understandings of the foundational concept
 :black_small_square: inquirer v7.0.0
 <br>
 :black_small_square: chalk API - For colors in terminal: https://www.npmjs.com/package/chalk
+<br>
+:black_small_square: figlet
 
 ## Author
 
@@ -60,7 +62,7 @@ The primary motive was to solidify my understandings of the foundational concept
 <br>
 :heavy_check_mark: 9.1 - Review requirements. Established repository, files, and began markdown on README.md
 <br>
-:heavy_check_mark:
+:heavy_check_mark: 9.2 - Re-writing code and debugging.
 <br>
 :heavy_check_mark:
 <br>

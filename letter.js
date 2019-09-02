@@ -15,7 +15,7 @@ let letter = function (character) {
         if (this.character === ' ') {
             return (' ');
         } else if (this.letterGuessed) {
-            return (thhis.character);
+            return (this.character);
         } else if (this.character === "'") {
             return ("'");
         } else if (this.character === "-") {
@@ -26,7 +26,7 @@ let letter = function (character) {
     };
 
     // this function called guess will use .toLowerCase() method to return the calling string value to be converted to lower case.
-    this.letterGuessed = function (guess) {
+    this.letterGuess= function (guess) {
         if (guess.toLowerCase() === this.character.toLowerCase()) {
             this.letterGuessed = true;
         }
