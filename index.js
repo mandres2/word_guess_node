@@ -101,6 +101,7 @@ function loseGame() {
 //_____________________________________________________________ win game f(x) ___________________________________________________________________//
 
 function winGame() {
+    // using the figlet npm syntax:
     figlet('You win!', function(err, data) {
         if (err) {
             console.log('Unknown error.');
